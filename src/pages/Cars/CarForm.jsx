@@ -31,6 +31,7 @@ const CarForm = () => {
         } else {
             setIsUpdating(false);
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     const handleSubmit = async (carData) => {
             if (id) {
